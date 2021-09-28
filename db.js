@@ -43,7 +43,7 @@ module.exports = {
                 var val = res.rows[i];
                 values[val["id"]] = val["data"]["value"]
             }
-            result.render('index', {title: 'NodeJS PostgreSQL demo', values: values});
+            result.render('index', {title: 'Hello Devoxx!', values: values});
           });
     },
 
